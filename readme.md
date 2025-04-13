@@ -21,8 +21,8 @@ Equation Ref Tagger is a plugin for [Obsidian](https://obsidian.md/) that automa
 3. It assigns a unique number to each equation and appends it as a reference tag (e.g. `(42)`).
 4. References to equations are updated throughout your notes to match the assigned numbers.
 
-![How to write your equations](howto1.png)
-![After auto-numbering and referencing](howto2.png)
+![How to write your equations](howto/howto1.png)
+![After auto-numbering and referencing](howto/howto2.png)
 
 ## To change the plugin for your own needs
 
