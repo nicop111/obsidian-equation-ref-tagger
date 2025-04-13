@@ -7,6 +7,10 @@ export default class EquationRefTagger extends Plugin {
       name: 'Tag Equations and Update References',
       callback: () => this.tagEquationsAndReferences(),
     });
+
+    this.addRibbonIcon("function-square", "Update Equation Numbering", () => {
+      this.tagEquationsAndReferences();
+    });
   }
 
   async tagEquationsAndReferences() {

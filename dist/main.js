@@ -8,6 +8,9 @@ class EquationRefTagger extends obsidian_1.Plugin {
             name: 'Tag Equations and Update References',
             callback: () => this.tagEquationsAndReferences(),
         });
+        this.addRibbonIcon("function-square", "Update Equation Numbering", () => {
+            this.tagEquationsAndReferences();
+        });
     }
     async tagEquationsAndReferences() {
         const files = this.app.vault.getMarkdownFiles();
