@@ -5,6 +5,7 @@
     "minAppVersion": "0.12.0",
     "description": "Auto-numbering of equations and equation references",
     "author": "nicop111",
-    "main": "main.js"
+    "main": "main.js",
+    "isDesktopOnly": false
   }
   
