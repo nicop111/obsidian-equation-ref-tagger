@@ -1,16 +1,15 @@
-Equation Auto Numbering is a plugin for [Obsidian](https://obsidian.md/) that automates the numbering of equations and their references within your Markdown notes. This plugin is particularly useful for users who work with mathematical content and need consistent equation numbering and referencing.
+Equation Auto Numbering is a plugin for [Obsidian](https://obsidian.md/) that automates the numbering of equations and their references within your Markdown notes.
 
 ## Features
 
-- **Automatic Equation Numbering**: Automatically assigns numbers to equations written in LaTeX (`$$ ... $$`) blocks.
-- **Footnote Integration**: Associates equations with footnotes for easy referencing.
-- **Reference Updates**: Updates references to equations across all notes in your vault, ensuring consistency.
+- **Equation Numbering**: Automatically assigns numbers to equations in the active note
+- **Reference Updates**: Updates references to equations across all notes in your vault
 
 ## Installation
 
 1. Download or clone this repository into your Obsidian plugins folder.
 2. Enable the plugin in Obsidian by navigating to `Settings > Community Plugins > Installed Plugins`.
-3. Activate "Equation Ref Tagger" plugin
+3. Activate "Equation Auto Numbering" plugin
 
 ## How It Works
 
