@@ -14,7 +14,7 @@ Equation Auto Numbering is a plugin for [Obsidian](https://obsidian.md/) that au
 
 ## How It Works
 
-1. The plugin scans your notes for LaTeX equation blocks with or without references (`$$ ... $$ ^reference`).
+1. Create LaTeX equation blocks with or without references (`$$ ... $$ ^reference`).
 2. Click the ribbon icon labeled "Update Equation Numbering" to run the plugin
 3. It assigns a unique number to each equation and appends it as a reference tag (e.g. `(42)`).
 4. References to equations are updated throughout your notes to match the assigned numbers.
