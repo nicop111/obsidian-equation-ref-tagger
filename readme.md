@@ -1,6 +1,4 @@
-# Equation Ref Tagger
-
-Equation Ref Tagger is a plugin for [Obsidian](https://obsidian.md/) that automates the numbering of equations and their references within your Markdown notes. This plugin is particularly useful for users who work with mathematical content and need consistent equation numbering and referencing.
+Equation Auto Numbering is a plugin for [Obsidian](https://obsidian.md/) that automates the numbering of equations and their references within your Markdown notes. This plugin is particularly useful for users who work with mathematical content and need consistent equation numbering and referencing.
 
 ## Features
 
@@ -29,4 +27,4 @@ Equation Ref Tagger is a plugin for [Obsidian](https://obsidian.md/) that automa
 1. Edit file `src/main.ts`
 2. Compile with `npx tsc`
 3. Copy `dist/main.js` into the root of this project
-4. Copy the whole project folder into the plugin folder of your obsidian vault
+4. Create a folder with `main.js` and `manifest.json` inside the plugin folder of your obsidian vault
