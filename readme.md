@@ -7,9 +7,10 @@ Equation Auto Numbering is a plugin for [Obsidian](https://obsidian.md/) that au
 
 ## Installation
 
-1. Download or clone this repository into your Obsidian plugins folder.
-2. Enable the plugin in Obsidian by navigating to `Settings > Community Plugins > Installed Plugins`.
-3. Activate "Equation Auto Numbering" plugin
+1. Download files `main.js` and `manifest.json` from the releases.
+2. Go to your obsidian vaults plugin folder. Create a folder `equation-auto-numbering` and paste downloaded files there.
+3. Enable the plugin in Obsidian by navigating to `Settings > Community Plugins > Installed Plugins`.
+4. Activate "Equation Auto Numbering" plugin.
 
 ## How It Works
 
@@ -24,6 +25,5 @@ Equation Auto Numbering is a plugin for [Obsidian](https://obsidian.md/) that au
 ## To change the plugin for your own needs
 
 1. Edit file `src/main.ts`
-2. Compile with `npx tsc`
-3. Copy `dist/main.js` into the root of this project
-4. Create a folder with `main.js` and `manifest.json` inside the plugin folder of your obsidian vault
+2. Compile with `npx tsc`, that creates new `dist/main.js` file
+3. Go ahead with Installation^^
